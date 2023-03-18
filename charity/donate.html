@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./pic/icon.png">
+  <title>Donation Form</title>
+
+  <style>
+    body {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 50px;
+      color: white;
+    }
+
+    fieldset {
+      color: white;
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-size: 26px;
+      font-family: cursive;
+      border-color: black;
+      border-width: 12px;
+      background-image: url("./pic/photo.avif");
+    }
+
+    input {
+      width: 166px;
+      height: 20px;
+      border-radius: 12px;
+    }
+
+    button {
+      background-color: black;
+      border: none;
+      color: white;
+      outline: none;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .text {
+      color: black;
+    }
+
+    button:hover {
+      background-color: grey;
+    }
+  </style>
+</head>
+
+<body>
+  <form method="get">
+    <fieldset>
+      <strong>
+        <h1>Donation Form</h1>
+      </strong>
+      <label for="Name">Name</label><br />
+      <input type="text" placeholder="Your Name" /><br /><br /><br />
+      <label for="Your Email"> Email</label><br />
+      <input type="text" placeholder="Your Email" /><br /><br /><br />
+      <label for="Contact Number">Contact Number</label><br />
+      <input type="text" placeholder="Number" /><br /><br /><br />
+      <label for="Classes">Types of Donation</label><br />
+      <select>
+        <option value=""></option>
+        <option value="Love Offering">Love Offering</option>
+        <option value="Building Expansion">Building Expansion</option>
+        <option value="One Time Donation">One Time Donation</option>
+        <option value="Yearly Donation">Yearly Donation</option>
+        <option value="Monthly Donation">Monthly Donation</option>
+        <option value="Weekly Donation">Weekly Donation</option>
+      </select><br /><br /><br />
+      <label for="Donation Amount">Donation Amount</label><br />
+      <input type="text" placeholder="Amount" /><br /><br /><br />
+      <label for="Payment method">Payment Method</label><br />
+      <input type="radio" id="Payment1" name="pay1" value="money" />
+      <label for="Debit Card">Debit Card</label><br />
+      <input type="radio" id="Payment2" name="pay1" value="money" />
+      <label for="Credit Card">Credit Card</label><br />
+      <input type="radio" id="Payment3" name="pay1" value="money" />
+      <label for="Easypaisa">Easypaisa</label><br />
+      <input type="radio" id="Payment4" name="pay1" value="money" />
+      <label for="Jazz Cash">Jazz Cash</label><br />
+      <input type="radio" id="Payment4" name="pay1" value="money" />
+      <label for="Cash">Cash</label><br /><br /><br />
+      <label for="Select Date">Select Date</label><br />
+      <input type="date" /><br /><br /><br />
+
+
+
+      <strong><label for="Your Comment" class="text">Your Comment :</label><br /></strong>
+      <textarea name="" id="" cols="40" rows="20" style="width: 315px; height: 107px"></textarea><br />
+      <button>Submit here</button><br />
+    </fieldset>
+  </form>
+</body>
+
+</html>
